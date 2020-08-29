@@ -1,0 +1,23 @@
+@import "typeface.css";
+
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #fff;
+  background-color: #333;
+  line-height: 1.8rem;
+}
+
+a {
+  color: #308e2d;
+}
+
+a:hover {
+  color: #34731a;
+}
+
+a:active {
+  color: #ffffff;
+}

@@ -1,0 +1,92 @@
+.root {
+  height: calc(100vh);
+  display: flex;
+}
+
+.header {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 66.66%;
+}
+
+.main {
+  width: 33.33%;
+  margin-top: 120px;
+}
+
+section {
+  padding: 42px 42px 5px;
+  letter-spacing: 0.01rem;
+}
+
+.cta {
+  font-size: 14px;
+  text-transform: uppercase;
+  border: 1px solid #34731a;
+  background-color: #34731a;
+  border-radius: 6px;
+  padding: 6px 24px;
+  display: flex;
+  cursor: pointer;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.cta:hover {
+  background-color: #308e2d;
+  color: #ffffff;
+}
+
+.cta:active {
+  background-color: #34731a;
+  border-color: #308e2d;
+}
+
+.cta img {
+  padding-right: 14px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  font-size: 14px;
+}
+
+.label {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #999;
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 940px) {
+  .root {
+    height: auto;
+    flex-direction: column;
+  }
+  .header {
+    width: 100%;
+    height: 768px;
+  }
+  .main {
+    width: 100%;
+    margin-top: unset;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .header {
+    height: 624px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header {
+    height: 324px;
+  }
+}
