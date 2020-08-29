@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/philipsaa.com/static/css/main.19afbaa4.chunk.css",
+    "main.js": "/philipsaa.com/static/js/main.6f4026dd.chunk.js",
+    "main.js.map": "/philipsaa.com/static/js/main.6f4026dd.chunk.js.map",
+    "runtime-main.js": "/philipsaa.com/static/js/runtime-main.ba87c9d3.js",
+    "runtime-main.js.map": "/philipsaa.com/static/js/runtime-main.ba87c9d3.js.map",
+    "static/js/2.0100acdb.chunk.js": "/philipsaa.com/static/js/2.0100acdb.chunk.js",
+    "static/js/2.0100acdb.chunk.js.map": "/philipsaa.com/static/js/2.0100acdb.chunk.js.map",
+    "index.html": "/philipsaa.com/index.html",
+    "precache-manifest.07e34882e8a80a43ccf421ac7889a085.js": "/philipsaa.com/precache-manifest.07e34882e8a80a43ccf421ac7889a085.js",
+    "service-worker.js": "/philipsaa.com/service-worker.js",
+    "static/css/main.19afbaa4.chunk.css.map": "/philipsaa.com/static/css/main.19afbaa4.chunk.css.map",
+    "static/js/2.0100acdb.chunk.js.LICENSE.txt": "/philipsaa.com/static/js/2.0100acdb.chunk.js.LICENSE.txt",
+    "static/media/scaffold.css": "/philipsaa.com/static/media/Roboto-Regular.9feb0110.woff2",
+    "static/media/logo.svg": "/philipsaa.com/static/media/logo.5d5d9eef.svg",
+    "static/media/philipsaa.jpg": "/philipsaa.com/static/media/philipsaa.b0697206.jpg",
+    "static/media/world.svg": "/philipsaa.com/static/media/world.eff10b50.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ba87c9d3.js",
+    "static/js/2.0100acdb.chunk.js",
+    "static/css/main.19afbaa4.chunk.css",
+    "static/js/main.6f4026dd.chunk.js"
+  ]
+}
