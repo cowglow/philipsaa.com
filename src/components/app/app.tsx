@@ -3,14 +3,13 @@ import styles from "./app.module.css";
 import hero from "../../assets/philipsaa.jpg";
 import world from "../../assets/world.svg";
 
-const App = () => {
+const App: React.FC = () => {
   return (
     <div className={styles.root}>
       <header
         className={styles.header}
         style={{ backgroundImage: `url("${hero}")` }}
-      >
-      </header>
+      ></header>
       <main className={styles.main}>
         <section>
           <h1>Philip Saa</h1>

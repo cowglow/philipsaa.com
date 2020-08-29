@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../../assets/logo.svg";
 import styles from "./loader.module.css";
 
-const Loader = () => {
+const Loader: React.FC = () => {
   const [state, setState] = React.useState(styles.root);
   React.useEffect(() => {
     const interval = setInterval(() => {
