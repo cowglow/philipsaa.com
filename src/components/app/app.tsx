@@ -31,8 +31,8 @@ const App: React.FC = () => {
         </section>
         <section>
           <p>
-            I like to call myself a Multimedia Specialist. Located currently in
-            Bavaria, Germany. My interests range from music theory to film
+            I like to call myself a Multimedia Specialist. Currently located in
+            southern Germany. My interests range from music theory to film
             making. I am also interested in programming and Drum and bass.
           </p>
           <p>
