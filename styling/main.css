@@ -1,0 +1,72 @@
+body {
+	margin: 0;
+	font-family: Roboto, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: #fff;
+	background-color: #333;
+	line-height: 1.8rem;
+}
+
+header {
+	background-image: url('/images/philipsaa.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 66.66%;
+}
+
+main {
+	width: 33.33%;
+	margin-top: 140px;
+}
+
+section {
+	padding: 21px 42px 5px;
+	letter-spacing: 0.01rem;
+}
+
+a {
+	color: #308e2d;
+}
+
+a:hover {
+	color: #34731a;
+}
+
+a:active {
+	color: #ffffff;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	font-size: 14px;
+}
+
+@media screen and (max-width: 940px) {
+	header {
+		width: 100%;
+		height: 768px;
+	}
+	main {
+		width: 100%;
+		margin-top: unset;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	header {
+		height: 624px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	header {
+		height: 324px;
+	}
+}
