@@ -12,8 +12,8 @@
 			</a>
 		</li>
 		<li>
-			<a href="https://cowglow.com" rel="noreferrer noopener" target="_blank">
-				https://cowglow.com
+			<a href="https://twitter.com/cowglow" rel="noreferrer noopener" target="_blank">
+				https://twitter.com/cowglow
 			</a>
 		</li>
 	</ul>
