@@ -5,8 +5,7 @@ import adapterStatic from '@sveltejs/adapter-static';
 const config = {
 	preprocess: preprocess(),
 	kit: {
-		adapter: adapterStatic(),
-		target: '#svelte'
+		adapter: adapterStatic()
 	}
 };
 
