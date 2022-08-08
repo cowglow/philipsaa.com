@@ -2,18 +2,18 @@
 	<div class="label">Links</div>
 	<ul>
 		<li>
-			<a href="https://instagram.com/cowglow" rel="noreferrer noopener" target="_blank">
-				https://instagram.com/cowglow
-			</a>
-		</li>
-		<li>
 			<a href="https://github.com/cowglow" rel="noreferrer noopener" target="_blank">
 				https://github.com/cowglow
 			</a>
 		</li>
 		<li>
-			<a href="https://twitter.com/cowglow" rel="noreferrer noopener" target="_blank">
-				https://twitter.com/cowglow
+			<a href="https://linkedin.com/in/philipsaa/" rel="noreferrer noopener" target="_blank">
+				https://linkedin.com/in/philipsaa/
+			</a>
+		</li>
+		<li>
+			<a href="https://imdb.com/name/nm4765825/" rel="noreferrer noopener" target="_blank">
+				https://imdb.com/name/nm4765825/
 			</a>
 		</li>
 	</ul>

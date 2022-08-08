@@ -4,11 +4,31 @@
 		"msg": "I like to call myself a Multimedia Specialist."
 	},
 	{
-		"label": "Remove Developer",
+		"label": "Remote Developer",
 		"msg": "Part of Germany's digitization transformation."
 	},
 	{
 		"label": "MC Scrpt",
 		"msg": "Drum and Bass MC; available for booking and collaboration."
+	},
+	{
+		"label": "American living",
+		"msg": ""
+	},
+	{
+		"label": "Husband & Father",
+		"msg": ""
+	},
+	{
+		"label": "Filmmaker",
+		"msg": ""
+	},
+	{
+		"label": "Volunteer",
+		"msg": ""
+	},
+	{
+		"label": "Disciple of Nichiren",
+		"msg": ""
 	}
 ]

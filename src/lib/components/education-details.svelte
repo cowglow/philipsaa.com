@@ -1,8 +1,8 @@
 <section>
 	<div class="label">Education</div>
 	<ul>
-		<li>California Institute of the Arts</li>
 		<li>Los Angeles Film School</li>
+		<li>California Institute of the Arts</li>
 	</ul>
 </section>
 
