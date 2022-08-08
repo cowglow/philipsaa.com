@@ -2,25 +2,33 @@
 	import CtaButton from '$lib/components/cta-button.svelte';
 	import EducationDetails from '$lib/components/education-details.svelte';
 	import ExternalLinks from '$lib/components/external-links.svelte';
+	import labelData from '$lib/fixtures/titles.json';
+
+	type label = {
+		label: string;
+		msg: string;
+	};
+
+	const labels: label[] = [...labelData];
+	const randomLabel = labels[Math.floor(Math.random() * labels.length)];
 </script>
 
 <section>
 	<h1>Philip Saa</h1>
 	<h2>
-		MULTIMEDIA SPECIALIST <br />
-		<div class="location">IN BAVARIA, GERMANY</div>
+		{randomLabel.label.toUpperCase()} <br />
+		<span class="location">IN BAVARIA, GERMANY</span>
 	</h2>
 	<CtaButton href="https://cowglow.com" alt="website link" iconSrc="images/world.svg">
 		Visit my Website
 	</CtaButton>
 	<p>
-		I like to call myself a Multimedia Specialist. Currently located in southern Germany. My
-		interests range from music theory to film making. I am also interested in programming and Drum
-		and bass.
+		{randomLabel.msg} Currently located in southern Germany. My interests range from music theory to
+		film making. I am currently working as a remote developer, programming with JavaScript.
 	</p>
 	<p>
-		I'm <a href="https://twitter.com/cowglow" rel="noreferrer noopener" target="_blank">
-			@cowglow
+		I'm <a href="https://twitter.com/cowglow" rel="noreferrer noopener" target="_blank"
+			>@cowglow
 		</a> on Twitter. DM me!
 	</p>
 </section>
