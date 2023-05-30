@@ -13,25 +13,25 @@
 	.cta {
 		font-size: 14px;
 		text-transform: uppercase;
-		border: 1px solid #34731a;
-		background-color: #34731a;
+		border: 1px solid var(--text-color);
+		background-color: #333;
 		border-radius: 6px;
 		padding: 6px 24px;
 		margin: 68px 0;
 		display: flex;
 		cursor: pointer;
-		color: #ffffff;
+		color: var(--text-color);
 		text-decoration: none;
 	}
 
 	.cta:hover {
-		background-color: #308e2d;
-		color: #ffffff;
+		border-color: var(--text-color-highlight);
+		background-color: #666;
+		color: var(--text-color-highlight);
 	}
 
 	.cta:active {
-		background-color: #34731a;
-		border-color: #308e2d;
+		background-color: var(--text-color);
 	}
 
 	.cta img {
