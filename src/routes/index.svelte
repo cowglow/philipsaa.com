@@ -26,11 +26,6 @@
 		{randomLabel.msg} Currently located in southern Germany. My interests range from music theory to
 		film making. I am currently working as a remote developer, programming with JavaScript.
 	</p>
-	<p>
-		I'm <a href="https://twitter.com/cowglow" rel="noreferrer noopener" target="_blank"
-			>@cowglow
-		</a> on Twitter. DM me!
-	</p>
 </section>
 
 <EducationDetails />
